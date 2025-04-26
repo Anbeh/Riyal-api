@@ -2,8 +2,9 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
-# لیست ارزهای منتخب
+
 selected_currencies = {
     "USD": {"name": "US Dollar", "flag": "🇺🇸"},
     "EUR": {"name": "Euro", "flag": "🇪🇺"},
@@ -29,7 +30,7 @@ def get_usd_price_toman():
     if len(td_tags) >= 2:
         text = td_tags[1].text.strip().replace(",", "").replace(" IRR", "")
         usd_to_irr = int(text)
-        return usd_to_irr // 10  # Convert IRR to Toman
+        return usd_to_irr // 10
     return None
 
 def get_selected_rates_in_toman():
@@ -41,8 +42,8 @@ def get_selected_rates_in_toman():
         return
 
     rates = data.get("rates", {})
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
+    timestamp = datetime.now(ZoneInfo("Asia/Tehran")).strftime("%Y-%m-%d %H:%M:%S")
+    
     result = {
         "checked_at": timestamp,
         "usd_to_toman": usd_to_toman,
