@@ -1,0 +1,72 @@
+{
+  "checked_at": "2025-04-26 01:52:22",
+  "usd_to_toman": 79550,
+  "selected_rates": [
+    {
+      "name": "US Dollar",
+      "code": "USD",
+      "flag": "🇺🇸",
+      "price": 79550
+    },
+    {
+      "name": "Euro",
+      "code": "EUR",
+      "flag": "🇪🇺",
+      "price": 90391
+    },
+    {
+      "name": "British Pound",
+      "code": "GBP",
+      "flag": "🇬🇧",
+      "price": 105904
+    },
+    {
+      "name": "Swiss Franc",
+      "code": "CHF",
+      "flag": "🇨🇭",
+      "price": 96004
+    },
+    {
+      "name": "Canadian Dollar",
+      "code": "CAD",
+      "flag": "🇨🇦",
+      "price": 57397
+    },
+    {
+      "name": "Turkish Lira",
+      "code": "TRY",
+      "flag": "🇹🇷",
+      "price": 2069
+    },
+    {
+      "name": "Russian Ruble",
+      "code": "RUB",
+      "flag": "🇷🇺",
+      "price": 962
+    },
+    {
+      "name": "Chinese Yuan",
+      "code": "CNY",
+      "flag": "🇨🇳",
+      "price": 10912
+    },
+    {
+      "name": "Iraqi Dinar",
+      "code": "IQD",
+      "flag": "🇮🇶",
+      "price": 61
+    },
+    {
+      "name": "UAE Dirham",
+      "code": "AED",
+      "flag": "🇦🇪",
+      "price": 21661
+    },
+    {
+      "name": "Afghan Afghani",
+      "code": "AFN",
+      "flag": "🇦🇫",
+      "price": 1116
+    }
+  ]
+}
