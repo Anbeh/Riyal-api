@@ -1,54 +1,54 @@
 {
-  "checked_at": "2025-04-26 17:26:00",
-  "usd_to_toman": 81250,
+  "checked_at": "2025-04-26 17:47:49",
+  "usd_to_toman": 80650,
   "selected_rates": [
     {
       "name": "US Dollar",
       "code": "USD",
       "flag": "🇺🇸",
-      "price": 81250
+      "price": 80650
     },
     {
       "name": "Euro",
       "code": "EUR",
       "flag": "🇪🇺",
-      "price": 92322
+      "price": 91641
     },
     {
       "name": "British Pound",
       "code": "GBP",
       "flag": "🇬🇧",
-      "price": 108167
+      "price": 107368
     },
     {
       "name": "Swiss Franc",
       "code": "CHF",
       "flag": "🇨🇭",
-      "price": 98056
+      "price": 97332
     },
     {
       "name": "Canadian Dollar",
       "code": "CAD",
       "flag": "🇨🇦",
-      "price": 58624
+      "price": 58191
     },
     {
       "name": "Turkish Lira",
       "code": "TRY",
       "flag": "🇹🇷",
-      "price": 2114
+      "price": 2098
     },
     {
       "name": "Russian Ruble",
       "code": "RUB",
       "flag": "🇷🇺",
-      "price": 982
+      "price": 975
     },
     {
       "name": "Chinese Yuan",
       "code": "CNY",
       "flag": "🇨🇳",
-      "price": 11145
+      "price": 11063
     },
     {
       "name": "Iraqi Dinar",
@@ -60,13 +60,13 @@
       "name": "UAE Dirham",
       "code": "AED",
       "flag": "🇦🇪",
-      "price": 22124
+      "price": 21961
     },
     {
       "name": "Afghan Afghani",
       "code": "AFN",
       "flag": "🇦🇫",
-      "price": 1140
+      "price": 1132
     }
   ]
 }
