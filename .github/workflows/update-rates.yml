@@ -20,9 +20,6 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Run Python script
-        run: python api.py
-
       - name: Run 2nd Python script
         run: python api2.py
 
