@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-04-27 03:18:39",
+  "checked_at": "2025-04-27 05:38:24",
   "usd_to_toman": 82900,
   "selected_rates": [
     {
@@ -12,25 +12,25 @@
       "name": "Euro",
       "code": "EUR",
       "flag": "🇪🇺",
-      "price": 94197
+      "price": 94186
     },
     {
       "name": "British Pound",
       "code": "GBP",
       "flag": "🇬🇧",
-      "price": 110364
+      "price": 110353
     },
     {
       "name": "Swiss Franc",
       "code": "CHF",
       "flag": "🇨🇭",
-      "price": 100047
+      "price": 100049
     },
     {
       "name": "Canadian Dollar",
       "code": "CAD",
       "flag": "🇨🇦",
-      "price": 59814
+      "price": 59817
     },
     {
       "name": "Turkish Lira",
@@ -48,7 +48,7 @@
       "name": "Chinese Yuan",
       "code": "CNY",
       "flag": "🇨🇳",
-      "price": 11372
+      "price": 11370
     },
     {
       "name": "Iraqi Dinar",
@@ -66,7 +66,7 @@
       "name": "Afghan Afghani",
       "code": "AFN",
       "flag": "🇦🇫",
-      "price": 1163
+      "price": 1164
     }
   ]
 }
