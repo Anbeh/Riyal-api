@@ -186,7 +186,7 @@ def get_all_data():
     }
 
     # ذخیره‌سازی داده‌ها
-    with open("data.json", "w", encoding="utf-8") as f:
+    with open("data2.json", "w", encoding="utf-8") as f:
         json.dump(combined_data, f, indent=2, ensure_ascii=False)
 
     print("✅ تمام داده‌ها با موفقیت استخراج و در combined_data.json ذخیره شدند")
