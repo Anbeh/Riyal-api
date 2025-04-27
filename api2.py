@@ -15,7 +15,6 @@ selected_currencies = {
     "CNY": {"name": "Chinese Yuan"},
     "IQD": {"name": "Iraqi Dinar"},
     "AED": {"name": "UAE Dirham"},
-    "AFN": {"name": "Afghan Afghani"}
 }
 
 # آیکون‌های ارزهای جهانی
