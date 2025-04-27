@@ -1,42 +1,42 @@
 {
-  "checked_at": "2025-04-27 09:48:38",
-  "usd_to_toman": 83500,
+  "checked_at": "2025-04-27 09:59:28",
+  "usd_to_toman": 83550,
   "currency_rates": [
     {
       "name": "US Dollar",
       "code": "USD",
       "flag": "🇺🇸",
-      "price": 83500
+      "price": 83550
     },
     {
       "name": "Euro",
       "code": "EUR",
       "flag": "🇪🇺",
-      "price": 94867
+      "price": 94924
     },
     {
       "name": "British Pound",
       "code": "GBP",
       "flag": "🇬🇧",
-      "price": 111152
+      "price": 111218
     },
     {
       "name": "Swiss Franc",
       "code": "CHF",
       "flag": "🇨🇭",
-      "price": 100773
+      "price": 100833
     },
     {
       "name": "Canadian Dollar",
       "code": "CAD",
       "flag": "🇨🇦",
-      "price": 60250
+      "price": 60286
     },
     {
       "name": "Turkish Lira",
       "code": "TRY",
       "flag": "🇹🇷",
-      "price": 2172
+      "price": 2173
     },
     {
       "name": "Russian Ruble",
@@ -48,7 +48,7 @@
       "name": "Chinese Yuan",
       "code": "CNY",
       "flag": "🇨🇳",
-      "price": 11452
+      "price": 11459
     },
     {
       "name": "Iraqi Dinar",
@@ -60,43 +60,43 @@
       "name": "UAE Dirham",
       "code": "AED",
       "flag": "🇦🇪",
-      "price": 22737
+      "price": 22750
     },
     {
       "name": "Afghan Afghani",
       "code": "AFN",
       "flag": "🇦🇫",
-      "price": 1172
+      "price": 1173
     }
   ],
   "gold_prices": [
     {
       "title": "مثقال طلا",
-      "price_toman": 2926000
+      "price_toman": 2929000
     },
     {
       "title": "یک گرم طلای 18 عیار",
-      "price_toman": 675377
+      "price_toman": 676070
     },
     {
       "title": "سکه امامی",
-      "price_toman": 7440000
+      "price_toman": 7420000
     },
     {
       "title": "سکه بهار آزادی",
-      "price_toman": 7030000
+      "price_toman": 7000000
     },
     {
       "title": "نیم سکه",
-      "price_toman": 4290000
+      "price_toman": 4270000
     },
     {
       "title": "ربع سکه",
-      "price_toman": 2510000
+      "price_toman": 2480000
     },
     {
       "title": "سکه گرمی",
-      "price_toman": 862000
+      "price_toman": 863000
     },
     {
       "title": "انس طلا",
@@ -106,52 +106,52 @@
   "cryptos": [
     {
       "name": "BTC",
-      "price": 94179.53176555042,
+      "price": 94174.62911356962,
       "icon": "https://img.cryptorank.io/coins/60x60.bitcoin1524754012028.png"
     },
     {
       "name": "ETH",
-      "price": 1808.006146144492,
+      "price": 1811.109880298304,
       "icon": "https://img.cryptorank.io/coins/60x60.ethereum1524754015525.png"
     },
     {
       "name": "XRP",
-      "price": 2.178287648935,
+      "price": 2.181056546641,
       "icon": "https://img.cryptorank.io/coins/60x60.xrp1634717634479.png"
     },
     {
       "name": "ADA",
-      "price": 0.699099357511,
+      "price": 0.699778828369,
       "icon": "https://img.cryptorank.io/coins/60x60.cardano1524754132195.png"
     },
     {
       "name": "TRX",
-      "price": 0.249698841082,
+      "price": 0.249685585253,
       "icon": "https://img.cryptorank.io/coins/60x60.tron1608810047161.png"
     },
     {
       "name": "USDT",
-      "price": 1.000228381405,
+      "price": 1.000232014201,
       "icon": "https://img.cryptorank.io/coins/60x60.tether1645007690922.png"
     },
     {
       "name": "BNB",
-      "price": 600.523892733845,
+      "price": 600.652235804847,
       "icon": "https://img.cryptorank.io/coins/60x60.bnb1732530324407.png"
     },
     {
       "name": "DOGE",
-      "price": 0.182347959136,
+      "price": 0.18205511397,
       "icon": "https://img.cryptorank.io/coins/60x60.dogecoin1524754995294.png"
     },
     {
       "name": "USDC",
-      "price": 0.999948238929,
+      "price": 0.999914031036,
       "icon": "https://img.cryptorank.io/coins/60x60.usd coin1634317395959.png"
     },
     {
       "name": "SOL",
-      "price": 148.425619546728,
+      "price": 148.458851617566,
       "icon": "https://img.cryptorank.io/coins/60x60.solana1606979093056.png"
     }
   ]
