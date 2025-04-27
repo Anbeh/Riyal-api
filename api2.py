@@ -3,21 +3,19 @@ import json
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-# لیست ارزهای منتخب (بدون پرچم)
 selected_currencies = {
-    "USD": {"name": "US Dollar"},
-    "EUR": {"name": "Euro"},
-    "GBP": {"name": "British Pound"},
-    "CHF": {"name": "Swiss Franc"},
-    "CAD": {"name": "Canadian Dollar"},
-    "TRY": {"name": "Turkish Lira"},
-    "RUB": {"name": "Russian Ruble"},
-    "CNY": {"name": "Chinese Yuan"},
-    "IQD": {"name": "Iraqi Dinar"},
-    "AED": {"name": "UAE Dirham"},
+    "USD": {"name": "دلار آمریکا"},
+    "EUR": {"name": "یورو"},
+    "GBP": {"name": "پوند انگلیس"},
+    "CHF": {"name": "فرانک سوئیس"},
+    "CAD": {"name": "دلار کانادا"},
+    "TRY": {"name": "لیر ترکیه"},
+    "RUB": {"name": "روبل روسیه"},
+    "CNY": {"name": "یوآن چین"},
+    "IQD": {"name": "دینار عراق"},
+    "AED": {"name": "درهم امارات"},
 }
 
-# آیکون‌های ارزهای جهانی
 currency_icons = {
     'USD': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1236-flag-of-united-states.png',
     'EUR': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1084-flag-of-european-union.png',
@@ -32,7 +30,6 @@ currency_icons = {
     'JPY': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1121-flag-of-japan.png'
 }
 
-# اطلاعات API ارزهای دیجیتال
 CRYPTO_API = 'https://api.cryptorank.io/v0/coins/prices?keys=bitcoin,ethereum,tether,ripple,bnb,solana,usdcoin,dogecoin,cardano,tron&currency=USD'
 
 crypto_abbreviations = {
