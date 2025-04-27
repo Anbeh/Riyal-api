@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-04-27 11:39:41",
+  "checked_at": "2025-04-27 11:50:16",
   "usd_to_toman": 83250,
   "currency_rates": [
     {
@@ -72,15 +72,15 @@
   "gold_prices": [
     {
       "title": "مثقال طلا",
-      "price_toman": 2908000
+      "price_toman": 2911000
     },
     {
       "title": "یک گرم طلای 18 عیار",
-      "price_toman": 671222
+      "price_toman": 672007
     },
     {
       "title": "سکه امامی",
-      "price_toman": 7390000
+      "price_toman": 7400000
     },
     {
       "title": "سکه بهار آزادی",
@@ -88,7 +88,7 @@
     },
     {
       "title": "نیم سکه",
-      "price_toman": 4270000
+      "price_toman": 4260000
     },
     {
       "title": "ربع سکه",
@@ -106,52 +106,52 @@
   "cryptos": [
     {
       "name": "BTC",
-      "price": 93959.81995847098,
+      "price": 94017.08333715616,
       "icon": "https://img.cryptorank.io/coins/60x60.bitcoin1524754012028.png"
     },
     {
       "name": "ETH",
-      "price": 1806.179623671219,
+      "price": 1809.235334591412,
       "icon": "https://img.cryptorank.io/coins/60x60.ethereum1524754015525.png"
     },
     {
       "name": "XRP",
-      "price": 2.181288780359,
+      "price": 2.18248045582,
       "icon": "https://img.cryptorank.io/coins/60x60.xrp1634717634479.png"
     },
     {
       "name": "ADA",
-      "price": 0.698418383922,
+      "price": 0.699068845683,
       "icon": "https://img.cryptorank.io/coins/60x60.cardano1524754132195.png"
     },
     {
       "name": "TRX",
-      "price": 0.249922901386,
+      "price": 0.250198985015,
       "icon": "https://img.cryptorank.io/coins/60x60.tron1608810047161.png"
     },
     {
       "name": "USDT",
-      "price": 1.00025198084,
+      "price": 1.000252076688,
       "icon": "https://img.cryptorank.io/coins/60x60.tether1645007690922.png"
     },
     {
       "name": "BNB",
-      "price": 600.856068603073,
+      "price": 600.859702243047,
       "icon": "https://img.cryptorank.io/coins/60x60.bnb1732530324407.png"
     },
     {
       "name": "DOGE",
-      "price": 0.180775957011,
+      "price": 0.181198750499,
       "icon": "https://img.cryptorank.io/coins/60x60.dogecoin1524754995294.png"
     },
     {
       "name": "USDC",
-      "price": 0.999951525457,
+      "price": 1.00000006159,
       "icon": "https://img.cryptorank.io/coins/60x60.usd coin1634317395959.png"
     },
     {
       "name": "SOL",
-      "price": 148.36091319461,
+      "price": 148.405604518688,
       "icon": "https://img.cryptorank.io/coins/60x60.solana1606979093056.png"
     }
   ]
