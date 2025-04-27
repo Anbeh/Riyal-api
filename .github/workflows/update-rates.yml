@@ -23,6 +23,9 @@ jobs:
       - name: Run Python script
         run: python api.py
 
+      - name: Run 2nd Python script
+        run: python api2.py
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
