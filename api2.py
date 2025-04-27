@@ -3,6 +3,7 @@ import json
 from bs4 import BeautifulSoup
 from datetime import datetime
 
+# لیست ارزهای انتخاب‌شده
 selected_currencies = {
     "USD": {"name": "دلار آمریکا"},
     "EUR": {"name": "یورو"},
@@ -16,17 +17,19 @@ selected_currencies = {
     "AED": {"name": "درهم امارات"},
 }
 
+# معادل‌های فارسی طلا
 gold_titles = {
-  "انس جهانی طلا": "انس طلا",
-  "مثقال طلای ۱۸ عیار": "مثقال طلا",
-  "یک گرم طلای ۱۸ عیار": "طلای 18 عیار",
-  "سکه امامی جدید": "سکه امامی",
-  "سکه بهار آزادی": "سکه بهار آزادی",
-  "نیم سکه بانکی": "نیم سکه",
-  "ربع سکه بانکی": "ربع سکه",
-  "سکه گرمی بانک ملی": "سکه گرمی"
+    "انس جهانی طلا": "انس طلا",
+    "مثقال طلای ۱۸ عیار": "مثقال طلا",
+    "یک گرم طلای ۱۸ عیار": "طلای 18 عیار",
+    "سکه امامی جدید": "سکه امامی",
+    "سکه بهار آزادی": "سکه بهار آزادی",
+    "نیم سکه بانکی": "نیم سکه",
+    "ربع سکه بانکی": "ربع سکه",
+    "سکه گرمی بانک ملی": "سکه گرمی"
 }
 
+# آیکون ارزها
 currency_icons = {
     'USD': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1236-flag-of-united-states.png',
     'EUR': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1084-flag-of-european-union.png',
@@ -41,6 +44,7 @@ currency_icons = {
     'JPY': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1121-flag-of-japan.png'
 }
 
+# اطلاعات کریپتو
 CRYPTO_API = 'https://api.cryptorank.io/v0/coins/prices?keys=bitcoin,ethereum,tether,ripple,bnb,solana,usdcoin,dogecoin,cardano,tron&currency=USD'
 
 crypto_abbreviations = {
@@ -69,85 +73,78 @@ crypto_icons = {
     'tron': 'https://img.cryptorank.io/coins/60x60.tron1608810047161.png'
 }
 
+# دریافت قیمت دلار به تومان
 def get_usd_price_toman():
-    url = "https://alanchand.com/en/currencies-price/usd-hav"
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, "html.parser")
-    td_tags = soup.find_all("td", {"data-v-c1354816": True})
-    if len(td_tags) >= 2:
-        text = td_tags[1].text.strip().replace(",", "").replace(" IRR", "")
-        usd_to_irr = int(text)
-        return usd_to_irr // 10  # تبدیل ریال به تومان
+    try:
+        url = "https://alanchand.com/en/currencies-price/usd-hav"
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.get(url, headers=headers)
+        soup = BeautifulSoup(response.text, "html.parser")
+        td_tags = soup.find_all("td", {"data-v-c1354816": True})
+        if len(td_tags) >= 2:
+            text = td_tags[1].text.strip().replace(",", "").replace(" IRR", "")
+            usd_to_irr = int(text)
+            return usd_to_irr // 10
+    except Exception as e:
+        print(f"❌ خطا در دریافت قیمت دلار: {e}")
     return None
 
+# دریافت قیمت طلا
 def scrape_gold_prices(usd_to_toman):
-    url = "https://alanchand.com/gold-price/"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
-    
     try:
+        url = "https://alanchand.com/gold-price/"
+        headers = {"User-Agent": "Mozilla/5.0"}
         response = requests.get(url, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
         gold_items = soup.find_all('div', {'data-v-37c0fcfd': True, 'class': 'body cpt'})
-        
-        gold_data = {
-            "scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "gold_prices": []
-        }
+        gold_data = {"scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "gold_prices": []}
         
         for item in gold_items:
-            try:
-                title_element = item.find('div', {'class': 'title'}).find('strong')
-                title = title_element.text.strip() if title_element else "N/A"
-                translated_title = gold_titles.get(title, title)  # استفاده از عنوان فارسی اگر وجود داشت
-                
-                price_cell = item.find('div', {'class': 'cell'})
-                if price_cell:
-                    price_text = price_cell.text.strip().replace(',', '').replace('.', '')
-                    
-                    if title == "XAU":  # انس جهانی طلا
-                        if price_text.replace('.', '', 1).isdigit():
-                            price_usd = float(price_text)
-                            price_toman = int(price_usd * usd_to_toman)
-                            
-                            gold_data["gold_prices"].append({
-                                "title": translated_title,
-                                "price_usd": price_usd,
-                                "price_toman": price_toman
-                            })
-                    else:
-                        if price_text.isdigit():
-                            price_toman = int(price_text)
-                            gold_data["gold_prices"].append({
-                                "title": translated_title,
-                                "price_toman": price_toman
-                            })
-                
-            except Exception as item_error:
-                print(f"⚠️ خطا در پردازش آیتم طلا: {str(item_error)}")
+            title_element = item.find('div', {'class': 'title'}).find('strong')
+            if not title_element:
                 continue
-        
+
+            original_title = title_element.text.strip()
+            if original_title not in gold_titles:
+                continue
+
+            translated_title = gold_titles[original_title]
+            price_cell = item.find('div', {'class': 'cell'})
+            if not price_cell:
+                continue
+
+            price_text = price_cell.text.strip().replace(',', '').replace('.', '')
+
+            if original_title == "انس جهانی طلا" and price_text.replace('.', '', 1).isdigit():
+                price_usd = float(price_text)
+                price_toman = int(price_usd * usd_to_toman)
+                gold_data["gold_prices"].append({
+                    "title": translated_title,
+                    "price_usd": price_usd,
+                    "price_toman": price_toman
+                })
+            elif price_text.isdigit():
+                price_toman = int(price_text)
+                gold_data["gold_prices"].append({
+                    "title": translated_title,
+                    "price_toman": price_toman
+                })
+
         return gold_data
-    
+
     except Exception as e:
-        print(f"❌ خطا در استخراج داده‌های طلا: {str(e)}")
+        print(f"❌ خطا در دریافت قیمت طلا: {e}")
         return None
 
+# دریافت قیمت کریپتو
 def get_crypto_prices():
     try:
         response = requests.get(CRYPTO_API)
         response.raise_for_status()
         data = response.json()
-        
-        crypto_data = {
-            "cryptos": []
-        }
+        crypto_data = {"cryptos": []}
 
         for crypto in data['data']:
             symbol = crypto_abbreviations.get(crypto['key'], crypto['key'].upper())
@@ -158,19 +155,19 @@ def get_crypto_prices():
                 "price": price,
                 "icon": icon
             })
-        
         return crypto_data
-    
+
     except Exception as e:
-        print(f"❌ خطا در استخراج داده‌های کریپتو: {str(e)}")
+        print(f"❌ خطا در دریافت قیمت کریپتو: {e}")
         return None
 
+# جمع آوری تمام داده‌ها
 def get_all_data():
     usd_to_toman = get_usd_price_toman()
     if not usd_to_toman:
-        print("❌ Failed to fetch USD to Toman rate.")
+        print("❌ دریافت قیمت دلار با شکست مواجه شد")
         return None
-    
+
     response = requests.get("https://open.er-api.com/v6/latest/USD")
     data = response.json()
     rates = data.get("rates", {})
@@ -191,12 +188,12 @@ def get_all_data():
 
     gold_data = scrape_gold_prices(usd_to_toman)
     if not gold_data:
-        print("❌ Failed to fetch gold prices.")
+        print("❌ دریافت قیمت طلا با شکست مواجه شد")
         return None
 
     crypto_data = get_crypto_prices()
     if not crypto_data:
-        print("❌ Failed to fetch crypto prices.")
+        print("❌ دریافت قیمت کریپتو با شکست مواجه شد")
         return None
 
     combined_data = {
@@ -207,11 +204,11 @@ def get_all_data():
         "cryptos": crypto_data["cryptos"]
     }
 
-    # ذخیره سازی داده‌ها
+    # ذخیره فایل
     with open("data2.json", "w", encoding="utf-8") as f:
         json.dump(combined_data, f, indent=2, ensure_ascii=False)
 
-    print("✅ تمام داده‌ها با موفقیت استخراج و در data2.json ذخیره شدند")
+    print("✅ تمام داده‌ها با موفقیت استخراج و در فایل data2.json ذخیره شد")
     return combined_data
 
 if __name__ == "__main__":
