@@ -16,6 +16,17 @@ selected_currencies = {
     "AED": {"name": "درهم امارات"},
 }
 
+gold_titles = {
+    "XAU": "انس طلا",
+    "Gold Mithqal": "مثقال طلا",
+    "Gold Gram 18K": " گرم طلای ۱۸",
+    "Imami Coin": "سکه امامی",
+    "Bahare Azadi Coin": "سکه بهار آزادی",
+    "Half Coin": "نیم سکه",
+    "Quarter Coin": "ربع سکه",
+    "Gerami Coin": "سکه گرمی"
+}
+
 currency_icons = {
     'USD': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1236-flag-of-united-states.png',
     'EUR': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1084-flag-of-european-union.png',
@@ -94,28 +105,29 @@ def scrape_gold_prices(usd_to_toman):
             try:
                 title_element = item.find('div', {'class': 'title'}).find('strong')
                 title = title_element.text.strip() if title_element else "N/A"
+                translated_title = gold_titles.get(title, title)  # استفاده از عنوان فارسی اگر وجود داشت
                 
                 price_cell = item.find('div', {'class': 'cell'})
                 if price_cell:
                     price_text = price_cell.text.strip().replace(',', '').replace('.', '')
                     
-                    if title == "XAU":  # فقط برای انس طلا
+                    if title == "XAU":  # انس جهانی طلا
                         if price_text.replace('.', '', 1).isdigit():
                             price_usd = float(price_text)
                             price_toman = int(price_usd * usd_to_toman)
                             
                             gold_data["gold_prices"].append({
-                                "title": title,
+                                "title": translated_title,
                                 "price_usd": price_usd,
                                 "price_toman": price_toman
                             })
-                    else:  # برای سایر انواع طلا
+                    else:
                         if price_text.isdigit():
                             price_irr = int(price_text)
                             price_toman = price_irr // 10
                             
                             gold_data["gold_prices"].append({
-                                "title": title,
+                                "title": translated_title,
                                 "price_toman": price_toman
                             })
                 
