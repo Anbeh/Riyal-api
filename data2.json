@@ -1,54 +1,54 @@
 {
-  "checked_at": "2025-04-27 13:56:24",
-  "usd_to_toman": 83050,
+  "checked_at": "2025-04-27 14:18:23",
+  "usd_to_toman": 83150,
   "currency_rates": [
     {
       "name": "US Dollar",
       "code": "USD",
       "flag": "🇺🇸",
-      "price": 83050
+      "price": 83150
     },
     {
       "name": "Euro",
       "code": "EUR",
       "flag": "🇪🇺",
-      "price": 94356
+      "price": 94470
     },
     {
       "name": "British Pound",
       "code": "GBP",
       "flag": "🇬🇧",
-      "price": 110553
+      "price": 110686
     },
     {
       "name": "Swiss Franc",
       "code": "CHF",
       "flag": "🇨🇭",
-      "price": 100230
+      "price": 100350
     },
     {
       "name": "Canadian Dollar",
       "code": "CAD",
       "flag": "🇨🇦",
-      "price": 59925
+      "price": 59998
     },
     {
       "name": "Turkish Lira",
       "code": "TRY",
       "flag": "🇹🇷",
-      "price": 2160
+      "price": 2163
     },
     {
       "name": "Russian Ruble",
       "code": "RUB",
       "flag": "🇷🇺",
-      "price": 1004
+      "price": 1005
     },
     {
       "name": "Chinese Yuan",
       "code": "CNY",
       "flag": "🇨🇳",
-      "price": 11391
+      "price": 11404
     },
     {
       "name": "Iraqi Dinar",
@@ -60,35 +60,35 @@
       "name": "UAE Dirham",
       "code": "AED",
       "flag": "🇦🇪",
-      "price": 22614
+      "price": 22641
     },
     {
       "name": "Afghan Afghani",
       "code": "AFN",
       "flag": "🇦🇫",
-      "price": 1166
+      "price": 1167
     }
   ],
   "gold_prices": [
     {
       "title": "مثقال طلا",
-      "price_toman": 2912000
+      "price_toman": 2903000
     },
     {
       "title": "یک گرم طلای 18 عیار",
-      "price_toman": 672146
+      "price_toman": 670068
     },
     {
       "title": "سکه امامی",
-      "price_toman": 7400000
+      "price_toman": 7410000
     },
     {
       "title": "سکه بهار آزادی",
-      "price_toman": 6960000
+      "price_toman": 6980000
     },
     {
       "title": "نیم سکه",
-      "price_toman": 4260000
+      "price_toman": 4270000
     },
     {
       "title": "ربع سکه",
@@ -96,7 +96,7 @@
     },
     {
       "title": "سکه گرمی",
-      "price_toman": 858000
+      "price_toman": 859000
     },
     {
       "title": "انس طلا",
@@ -106,52 +106,52 @@
   "cryptos": [
     {
       "name": "BTC",
-      "price": 93958.03676058346,
+      "price": 94054.90751357419,
       "icon": "https://img.cryptorank.io/coins/60x60.bitcoin1524754012028.png"
     },
     {
       "name": "ETH",
-      "price": 1795.333006247647,
+      "price": 1797.328256277364,
       "icon": "https://img.cryptorank.io/coins/60x60.ethereum1524754015525.png"
     },
     {
       "name": "XRP",
-      "price": 2.237164650506,
+      "price": 2.228252986398,
       "icon": "https://img.cryptorank.io/coins/60x60.xrp1634717634479.png"
     },
     {
       "name": "ADA",
-      "price": 0.697305782777,
+      "price": 0.700289958411,
       "icon": "https://img.cryptorank.io/coins/60x60.cardano1524754132195.png"
     },
     {
       "name": "TRX",
-      "price": 0.248703154512,
+      "price": 0.248736601471,
       "icon": "https://img.cryptorank.io/coins/60x60.tron1608810047161.png"
     },
     {
       "name": "USDT",
-      "price": 1.000283291014,
+      "price": 1.000287382659,
       "icon": "https://img.cryptorank.io/coins/60x60.tether1645007690922.png"
     },
     {
       "name": "BNB",
-      "price": 600.063177790091,
+      "price": 600.184232695945,
       "icon": "https://img.cryptorank.io/coins/60x60.bnb1732530324407.png"
     },
     {
       "name": "DOGE",
-      "price": 0.181586911905,
+      "price": 0.182106075051,
       "icon": "https://img.cryptorank.io/coins/60x60.dogecoin1524754995294.png"
     },
     {
       "name": "USDC",
-      "price": 0.999892671785,
+      "price": 0.999878076984,
       "icon": "https://img.cryptorank.io/coins/60x60.usd coin1634317395959.png"
     },
     {
       "name": "SOL",
-      "price": 148.651617553216,
+      "price": 148.997010389733,
       "icon": "https://img.cryptorank.io/coins/60x60.solana1606979093056.png"
     }
   ]
