@@ -123,9 +123,7 @@ def scrape_gold_prices(usd_to_toman):
                             })
                     else:
                         if price_text.isdigit():
-                            price_irr = int(price_text)
-                            price_toman = price_irr // 10
-                            
+                            price_toman = int(price_text)
                             gold_data["gold_prices"].append({
                                 "title": translated_title,
                                 "price_toman": price_toman
