@@ -3,19 +3,34 @@ import json
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-# لیست ارزهای منتخب
+# لیست ارزهای منتخب (بدون پرچم)
 selected_currencies = {
-    "USD": {"name": "US Dollar", "flag": "🇺🇸"},
-    "EUR": {"name": "Euro", "flag": "🇪🇺"},
-    "GBP": {"name": "British Pound", "flag": "🇬🇧"},
-    "CHF": {"name": "Swiss Franc", "flag": "🇨🇭"},
-    "CAD": {"name": "Canadian Dollar", "flag": "🇨🇦"},
-    "TRY": {"name": "Turkish Lira", "flag": "🇹🇷"},
-    "RUB": {"name": "Russian Ruble", "flag": "🇷🇺"},
-    "CNY": {"name": "Chinese Yuan", "flag": "🇨🇳"},
-    "IQD": {"name": "Iraqi Dinar", "flag": "🇮🇶"},
-    "AED": {"name": "UAE Dirham", "flag": "🇦🇪"},
-    "AFN": {"name": "Afghan Afghani", "flag": "🇦🇫"}
+    "USD": {"name": "US Dollar"},
+    "EUR": {"name": "Euro"},
+    "GBP": {"name": "British Pound"},
+    "CHF": {"name": "Swiss Franc"},
+    "CAD": {"name": "Canadian Dollar"},
+    "TRY": {"name": "Turkish Lira"},
+    "RUB": {"name": "Russian Ruble"},
+    "CNY": {"name": "Chinese Yuan"},
+    "IQD": {"name": "Iraqi Dinar"},
+    "AED": {"name": "UAE Dirham"},
+    "AFN": {"name": "Afghan Afghani"}
+}
+
+# آیکون‌های ارزهای جهانی
+currency_icons = {
+    'USD': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1236-flag-of-united-states.png',
+    'EUR': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1084-flag-of-european-union.png',
+    'GBP': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1235-flag-of-great-britain.png',
+    'AED': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1234-flag-of-the-united-arab-emirates.png',
+    'TRY': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1228-flag-of-turkey.png',
+    'CNY': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1060-flag-of-china.png',
+    'CAD': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/7164-flag-of-canada.png',
+    'CHF': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1217-flag-of-switzerland.png',
+    'RUB': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1187-flag-of-russia.png',
+    'IQD': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1115-flag-of-iraq.png',
+    'JPY': 'https://www.emoji.co.uk/files/apple-emojis/flags-ios/1121-flag-of-japan.png'
 }
 
 # اطلاعات API ارزهای دیجیتال
@@ -86,7 +101,7 @@ def scrape_gold_prices(usd_to_toman):
                 
                 price_cell = item.find('div', {'class': 'cell'})
                 if price_cell:
-                    price_text = price_cell.text.strip().replace(',', '').replace('.','')
+                    price_text = price_cell.text.strip().replace(',', '').replace('.', '')
                     
                     if title == "XAU":  # فقط برای انس طلا
                         if price_text.replace('.', '', 1).isdigit():
@@ -160,11 +175,12 @@ def get_all_data():
         rate = rates.get(code)
         if rate and rate != 0:
             price_toman = int(round((1 / rate) * usd_to_toman))
+            icon = currency_icons.get(code)
             currency_rates.append({
                 "name": info["name"],
                 "code": code,
-                "flag": info["flag"],
-                "price": price_toman
+                "price": price_toman,
+                "icon": icon
             })
 
     gold_data = scrape_gold_prices(usd_to_toman)
@@ -185,11 +201,11 @@ def get_all_data():
         "cryptos": crypto_data["cryptos"]
     }
 
-    # ذخیره‌سازی داده‌ها
+    # ذخیره سازی داده‌ها
     with open("data2.json", "w", encoding="utf-8") as f:
         json.dump(combined_data, f, indent=2, ensure_ascii=False)
 
-    print("✅ تمام داده‌ها با موفقیت استخراج و در combined_data.json ذخیره شدند")
+    print("✅ تمام داده‌ها با موفقیت استخراج و در data2.json ذخیره شدند")
     return combined_data
 
 if __name__ == "__main__":
