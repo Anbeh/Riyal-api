@@ -2,8 +2,8 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
-# تنظیم داده‌های اولیه
 selected_currencies = {
     "USD": {"name": "دلار آمریکا"},
     "EUR": {"name": "یورو"},
@@ -70,7 +70,6 @@ crypto_icons = {
     'tron': 'https://img.cryptorank.io/coins/60x60.tron1608810047161.png'
 }
 
-# گرفتن قیمت دلار به تومان
 def get_usd_price_toman():
     url = "https://alanchand.com/en/currencies-price/usd"
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -83,7 +82,6 @@ def get_usd_price_toman():
         return usd_to_irr // 10
     return None
 
-# گرفتن قیمت طلا
 def scrape_gold_prices(usd_to_toman):
     url = "https://alanchand.com/gold-price/"
     headers = {
@@ -98,7 +96,7 @@ def scrape_gold_prices(usd_to_toman):
         gold_items = soup.find_all('div', {'data-v-37c0fcfd': True, 'class': 'body cpt'})
         
         gold_data = {
-            "scraped_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "scraped_at": datetime.now(ZoneInfo("Asia/Tehran")).strftime("%Y-%m-%d %H:%M:%S"),
             "gold_prices": []
         }
         
@@ -108,7 +106,7 @@ def scrape_gold_prices(usd_to_toman):
                 title = title_element.text.strip() if title_element else "N/A"
                 translated_title = gold_titles.get(title, None)
                 if not translated_title:
-                    continue  # اگر عنوان در لیست نبود، رد کن
+                    continue
                 
                 price_cell = item.find('div', {'class': 'cell'})
                 if price_cell:
@@ -121,7 +119,7 @@ def scrape_gold_prices(usd_to_toman):
                             gold_data["gold_prices"].append({
                                 "title": translated_title,
                                 "price_toman": price_toman,
-                                "price_usd": price_usd  # اضافه شده
+                                "price_usd": price_usd
                             })
                     else:
                         price_text = price_text.replace('.', '')
@@ -142,7 +140,6 @@ def scrape_gold_prices(usd_to_toman):
         print(f"❌ خطا در استخراج داده‌های طلا: {str(e)}")
         return None
 
-# گرفتن قیمت کریپتو
 def get_crypto_prices():
     try:
         response = requests.get(CRYPTO_API)
@@ -169,7 +166,6 @@ def get_crypto_prices():
         print(f"❌ خطا در استخراج داده‌های کریپتو: {str(e)}")
         return None
 
-# گرفتن همه داده‌ها
 def get_all_data():
     usd_to_toman = get_usd_price_toman()
     if not usd_to_toman:
@@ -179,7 +175,7 @@ def get_all_data():
     response = requests.get("https://open.er-api.com/v6/latest/USD")
     data = response.json()
     rates = data.get("rates", {})
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now(ZoneInfo("Asia/Tehran")).strftime("%Y-%m-%d %H:%M:%S")
 
     currency_rates = []
     for code, info in selected_currencies.items():
@@ -218,6 +214,5 @@ def get_all_data():
     print("✅ تمام داده‌ها با موفقیت استخراج و در data2.json ذخیره شدند")
     return combined_data
 
-# اجرای اصلی
 if __name__ == "__main__":
     get_all_data()
