@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-04-28 06:06:43",
+  "checked_at": "2025-04-28 06:08:38",
   "usd_to_toman": 83250,
   "currency_rates": [
     {
@@ -96,52 +96,52 @@
   "cryptos": [
     {
       "name": "BTC",
-      "price": 94281.82794660285,
+      "price": 94176.35790882446,
       "icon": "https://img.cryptorank.io/coins/60x60.bitcoin1524754012028.png"
     },
     {
       "name": "ETH",
-      "price": 1796.347678944154,
+      "price": 1794.466304930723,
       "icon": "https://img.cryptorank.io/coins/60x60.ethereum1524754015525.png"
     },
     {
       "name": "XRP",
-      "price": 2.273808622999,
+      "price": 2.277962421388,
       "icon": "https://img.cryptorank.io/coins/60x60.xrp1634717634479.png"
     },
     {
       "name": "ADA",
-      "price": 0.713735256292,
+      "price": 0.712036847341,
       "icon": "https://img.cryptorank.io/coins/60x60.cardano1524754132195.png"
     },
     {
       "name": "TRX",
-      "price": 0.245522962417,
+      "price": 0.245256424974,
       "icon": "https://img.cryptorank.io/coins/60x60.tron1608810047161.png"
     },
     {
       "name": "USDT",
-      "price": 1.000243484793,
+      "price": 1.000233559866,
       "icon": "https://img.cryptorank.io/coins/60x60.tether1645007690922.png"
     },
     {
       "name": "BNB",
-      "price": 604.717428405851,
+      "price": 604.594668573356,
       "icon": "https://img.cryptorank.io/coins/60x60.bnb1732530324407.png"
     },
     {
       "name": "DOGE",
-      "price": 0.179435108028,
+      "price": 0.178982042536,
       "icon": "https://img.cryptorank.io/coins/60x60.dogecoin1524754995294.png"
     },
     {
       "name": "USDC",
-      "price": 1.000012653831,
+      "price": 0.99993063753,
       "icon": "https://img.cryptorank.io/coins/60x60.usd coin1634317395959.png"
     },
     {
       "name": "SOL",
-      "price": 149.781713500892,
+      "price": 149.315658024221,
       "icon": "https://img.cryptorank.io/coins/60x60.solana1606979093056.png"
     }
   ]
