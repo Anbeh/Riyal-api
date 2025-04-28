@@ -114,7 +114,7 @@ def scrape_gold_prices(usd_to_toman):
                 if price_cell:
                     price_text = price_cell.text.strip().replace(',', '')
                     
-                    if title == "XAU":
+                    if title == "انس طلا":
                         if price_text.replace('.', '', 1).isdigit():
                             price_usd = float(price_text)
                             price_toman = int(price_usd * usd_to_toman)
