@@ -72,13 +72,13 @@ crypto_icons = {
 
 # گرفتن قیمت دلار به تومان
 def get_usd_price_toman():
-    url = "https://alanchand.com/en/currencies-price/usd-hav"
+    url = "https://alanchand.com/en/currencies-price/usd"
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, "html.parser")
     td_tags = soup.find_all("td", {"data-v-c1354816": True})
     if len(td_tags) >= 2:
-        text = td_tags[1].text.strip().replace(",", "").replace(" IRR", "")
+        text = td_tags[4].text.strip().replace(",", "").replace(" IRR", "")
         usd_to_irr = int(text)
         return usd_to_irr // 10
     return None
