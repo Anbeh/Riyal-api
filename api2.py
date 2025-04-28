@@ -115,19 +115,20 @@ def scrape_gold_prices(usd_to_toman):
                     price_text = price_cell.text.strip().replace(',', '')
                     
                     if title == "انس طلا":
-                        if price_text.replace('.', '', 1).isdigit():
-                            price_usd = float(price_text)
+                        if price_text:
+                            price_usd = int(price_text)
                             price_toman = int(price_usd * usd_to_toman)
                             gold_data["gold_prices"].append({
                                 "title": translated_title,
                                 "price_toman": price_toman
                             })
                     else:
-                        if price_text:
-                            price_dollar = float(price_text)
+                        price_text = price_text.replace('.', '')
+                        if price_text.isdigit():
+                            price_toman = int(price_text)
                             gold_data["gold_prices"].append({
                                 "title": translated_title,
-                                "price_toman": price_dollar
+                                "price_toman": price_toman
                             })
                 
             except Exception as item_error:
