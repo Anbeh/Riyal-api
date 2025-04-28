@@ -123,12 +123,11 @@ def scrape_gold_prices(usd_to_toman):
                                 "price_toman": price_toman
                             })
                     else:
-                        price_text = price_text.replace('.', '')
-                        if price_text.isdigit():
-                            price_toman = int(price_text)
+                        if price_text:
+                            price_dollar = float(price_text)
                             gold_data["gold_prices"].append({
                                 "title": translated_title,
-                                "price_toman": price_toman
+                                "price_toman": price_dollar
                             })
                 
             except Exception as item_error:
