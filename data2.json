@@ -1,53 +1,53 @@
 {
-  "checked_at": "2025-04-29 11:20:03",
-  "usd_to_toman": 81400,
+  "checked_at": "2025-04-29 11:43:13",
+  "usd_to_toman": 81100,
   "currency_rates": [
     {
       "name": "دلار آمریکا",
       "code": "USD",
-      "price": 81400,
+      "price": 81100,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1236-flag-of-united-states.png"
     },
     {
       "name": "یورو",
       "code": "EUR",
-      "price": 92728,
+      "price": 92386,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1084-flag-of-european-union.png"
     },
     {
       "name": "پوند انگلیس",
       "code": "GBP",
-      "price": 109021,
+      "price": 108619,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1235-flag-of-great-britain.png"
     },
     {
       "name": "فرانک سوئیس",
       "code": "CHF",
-      "price": 98690,
+      "price": 98326,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1217-flag-of-switzerland.png"
     },
     {
       "name": "دلار کانادا",
       "code": "CAD",
-      "price": 58787,
+      "price": 58571,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/7164-flag-of-canada.png"
     },
     {
       "name": "لیر ترکیه",
       "code": "TRY",
-      "price": 2116,
+      "price": 2108,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1228-flag-of-turkey.png"
     },
     {
       "name": "روبل روسیه",
       "code": "RUB",
-      "price": 986,
+      "price": 982,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1187-flag-of-russia.png"
     },
     {
       "name": "یوآن چین",
       "code": "CNY",
-      "price": 11159,
+      "price": 11117,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1060-flag-of-china.png"
     },
     {
@@ -59,18 +59,18 @@
     {
       "name": "درهم امارات",
       "code": "AED",
-      "price": 22165,
+      "price": 22083,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1234-flag-of-the-united-arab-emirates.png"
     }
   ],
   "gold_prices": [
     {
       "title": "مثقال طلا",
-      "price_toman": 28050000
+      "price_toman": 28060000
     },
     {
       "title": "طلای 18 عیار",
-      "price_toman": 6474440
+      "price_toman": 6476750
     },
     {
       "title": "سکه امامی",
@@ -90,63 +90,63 @@
     },
     {
       "title": "سکه گرمی",
-      "price_toman": 8440000
+      "price_toman": 8410000
     },
     {
       "title": "انس طلا",
-      "price_toman": 269994846,
-      "price_usd": 3316.89
+      "price_toman": 269327423,
+      "price_usd": 3320.93
     }
   ],
   "cryptos": [
     {
       "name": "BTC",
-      "price": 94882.75073793645,
+      "price": 94954.21788472666,
       "icon": "https://img.cryptorank.io/coins/60x60.bitcoin1524754012028.png"
     },
     {
       "name": "ETH",
-      "price": 1822.740436444665,
+      "price": 1822.684296602711,
       "icon": "https://img.cryptorank.io/coins/60x60.ethereum1524754015525.png"
     },
     {
       "name": "XRP",
-      "price": 2.286903172921,
+      "price": 2.287335072571,
       "icon": "https://img.cryptorank.io/coins/60x60.xrp1634717634479.png"
     },
     {
       "name": "ADA",
-      "price": 0.711718667173,
+      "price": 0.71254167397,
       "icon": "https://img.cryptorank.io/coins/60x60.cardano1524754132195.png"
     },
     {
       "name": "TRX",
-      "price": 0.24707468366,
+      "price": 0.247065959734,
       "icon": "https://img.cryptorank.io/coins/60x60.tron1608810047161.png"
     },
     {
       "name": "USDT",
-      "price": 1.000278484402,
+      "price": 1.000289424099,
       "icon": "https://img.cryptorank.io/coins/60x60.tether1645007690922.png"
     },
     {
       "name": "BNB",
-      "price": 610.283233235695,
+      "price": 610.097791291494,
       "icon": "https://img.cryptorank.io/coins/60x60.bnb1732530324407.png"
     },
     {
       "name": "DOGE",
-      "price": 0.179730833996,
+      "price": 0.179817813385,
       "icon": "https://img.cryptorank.io/coins/60x60.dogecoin1524754995294.png"
     },
     {
       "name": "USDC",
-      "price": 0.999890496701,
+      "price": 0.999971492608,
       "icon": "https://img.cryptorank.io/coins/60x60.usd coin1634317395959.png"
     },
     {
       "name": "SOL",
-      "price": 148.552366009618,
+      "price": 148.87707163213,
       "icon": "https://img.cryptorank.io/coins/60x60.solana1606979093056.png"
     }
   ]
