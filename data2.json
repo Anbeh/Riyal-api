@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-04-30 01:55:52",
+  "checked_at": "2025-04-30 02:12:09",
   "usd_to_toman": 81300,
   "currency_rates": [
     {
@@ -94,59 +94,59 @@
     },
     {
       "title": "انس طلا",
-      "price_toman": 269985105,
-      "price_usd": 3320.85
+      "price_toman": 269796489,
+      "price_usd": 3318.53
     }
   ],
   "cryptos": [
     {
       "name": "BTC",
-      "price": 94483.90605871666,
+      "price": 94206.08073943133,
       "icon": "https://img.cryptorank.io/coins/60x60.bitcoin1524754012028.png"
     },
     {
       "name": "ETH",
-      "price": 1796.812103959201,
+      "price": 1794.26502514055,
       "icon": "https://img.cryptorank.io/coins/60x60.ethereum1524754015525.png"
     },
     {
       "name": "XRP",
-      "price": 2.259170720872,
+      "price": 2.254057834852,
       "icon": "https://img.cryptorank.io/coins/60x60.xrp1634717634479.png"
     },
     {
       "name": "ADA",
-      "price": 0.697699395926,
+      "price": 0.69477460431,
       "icon": "https://img.cryptorank.io/coins/60x60.cardano1524754132195.png"
     },
     {
       "name": "TRX",
-      "price": 0.244234995174,
+      "price": 0.244110781061,
       "icon": "https://img.cryptorank.io/coins/60x60.tron1608810047161.png"
     },
     {
       "name": "USDT",
-      "price": 1.000281773023,
+      "price": 1.00028199871,
       "icon": "https://img.cryptorank.io/coins/60x60.tether1645007690922.png"
     },
     {
       "name": "BNB",
-      "price": 600.289789315148,
+      "price": 599.938461755578,
       "icon": "https://img.cryptorank.io/coins/60x60.bnb1732530324407.png"
     },
     {
       "name": "DOGE",
-      "price": 0.17517249028,
+      "price": 0.174667484231,
       "icon": "https://img.cryptorank.io/coins/60x60.dogecoin1524754995294.png"
     },
     {
       "name": "USDC",
-      "price": 0.999994308957,
+      "price": 0.999963636167,
       "icon": "https://img.cryptorank.io/coins/60x60.usd coin1634317395959.png"
     },
     {
       "name": "SOL",
-      "price": 146.840538663004,
+      "price": 146.50643065129,
       "icon": "https://img.cryptorank.io/coins/60x60.solana1606979093056.png"
     }
   ]
