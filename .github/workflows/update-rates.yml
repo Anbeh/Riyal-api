@@ -21,7 +21,7 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Run 2nd Python script
-        run: python api2.py
+        run: python api.py
 
       - name: Commit and push changes
         run: |
