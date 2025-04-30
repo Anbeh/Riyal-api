@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-04-30 11:16:00",
+  "checked_at": "2025-04-30 11:26:32",
   "usd_to_toman": 81800,
   "currency_rates": [
     {
@@ -66,15 +66,15 @@
   "gold_prices": [
     {
       "title": "مثقال طلا",
-      "price_toman": 28200000
+      "price_toman": 28120000
     },
     {
       "title": "طلای 18 عیار",
-      "price_toman": 6509070
+      "price_toman": 6490600
     },
     {
       "title": "سکه امامی",
-      "price_toman": 72000000
+      "price_toman": 72500000
     },
     {
       "title": "سکه بهار آزادی",
@@ -94,8 +94,8 @@
     },
     {
       "title": "انس طلا",
-      "price_toman": 270877428,
-      "price_usd": 3311.46
+      "price_toman": 271000946,
+      "price_usd": 3312.97
     }
   ],
   "cryptos": [
