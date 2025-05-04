@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-04 12:15:53",
+  "checked_at": "2025-05-04 12:26:43",
   "usd_to_toman": 856900,
   "currency_rates": [
     {
@@ -64,10 +64,10 @@
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6775900,
-    "طلای 18 عیار 740": 6685600,
-    "طلای 24 عیار": 9034500,
-    "طلای دست دوم": 6685567
+    "طلای 18 عیار": 6802000,
+    "طلای 18 عیار 740": 6711300,
+    "طلای 24 عیار": 9069200,
+    "طلای دست دوم": 6711307
   },
   "gold_coins": [
     {
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 95668,
+      "price": 95675,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 1833.54,
+      "price": 1832.79,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -119,13 +119,13 @@
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 595.98,
+      "price": 595.72,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 145.54,
+      "price": 145.33,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
