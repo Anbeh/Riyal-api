@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-06 16:21:51",
+  "checked_at": "2025-05-06 17:02:01",
   "usd_to_toman": 828500,
   "currency_rates": [
     {
@@ -64,19 +64,19 @@
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6721200,
-    "طلای 18 عیار 740": 6631600,
-    "طلای 24 عیار": 8961500,
-    "طلای دست دوم": 6631581
+    "طلای 18 عیار": 6685900,
+    "طلای 18 عیار 740": 6596700,
+    "طلای 24 عیار": 8914400,
+    "طلای دست دوم": 6596730
   },
   "gold_coins": [
     {
       "title": "سکه امامی",
-      "price": 74590000
+      "price": 74860000
     },
     {
       "title": "سکه بهار آزادی",
-      "price": 70515000
+      "price": 70820000
     },
     {
       "title": "نیم سکه",
@@ -84,7 +84,7 @@
     },
     {
       "title": "ربع سکه",
-      "price": 26800000
+      "price": 26900000
     },
     {
       "title": "سکه گرمی",
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 93944,
+      "price": 93745,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 1774.62,
+      "price": 1763.15,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.1,
+      "price": 2.09,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 594.88,
+      "price": 595.17,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 142.84,
+      "price": 142.03,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "DOGE",
       "fullname": "دوج‌کوین",
-      "price": 0.17,
+      "price": 0.16,
       "icon": "https://assets.coingecko.com/coins/images/5/large/dogecoin.png"
     },
     {
