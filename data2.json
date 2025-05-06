@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-06 13:53:45",
+  "checked_at": "2025-05-06 14:15:01",
   "usd_to_toman": 830200,
   "currency_rates": [
     {
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 94247,
+      "price": 94127,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 1795.83,
+      "price": 1793.84,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -119,13 +119,13 @@
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 597.19,
+      "price": 596.91,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 144.04,
+      "price": 143.64,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -143,13 +143,13 @@
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.66,
+      "price": 0.65,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
       "name": "TRX",
       "fullname": "ترون",
-      "price": 0.25,
+      "price": 0.24,
       "icon": "https://assets.coingecko.com/coins/images/1094/large/tron-logo.png"
     }
   ]
