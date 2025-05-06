@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-06 03:26:08",
+  "checked_at": "2025-05-06 05:18:47",
   "usd_to_toman": 844400,
   "currency_rates": [
     {
@@ -11,43 +11,43 @@
     {
       "name": "یورو",
       "code": "EUR",
-      "price": 95510,
+      "price": 95594,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1084-flag-of-european-union.png"
     },
     {
       "name": "پوند انگلیس",
       "code": "GBP",
-      "price": 111977,
+      "price": 112266,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1235-flag-of-great-britain.png"
     },
     {
       "name": "فرانک سوئیس",
       "code": "CHF",
-      "price": 102304,
+      "price": 102643,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1217-flag-of-switzerland.png"
     },
     {
       "name": "دلار کانادا",
       "code": "CAD",
-      "price": 61113,
+      "price": 61142,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/7164-flag-of-canada.png"
     },
     {
       "name": "لیر ترکیه",
       "code": "TRY",
-      "price": 2185,
+      "price": 2187,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1228-flag-of-turkey.png"
     },
     {
       "name": "روبل روسیه",
       "code": "RUB",
-      "price": 1022,
+      "price": 1035,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1187-flag-of-russia.png"
     },
     {
       "name": "یوآن چین",
       "code": "CNY",
-      "price": 11673,
+      "price": 11658,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1060-flag-of-china.png"
     },
     {
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 94761,
+      "price": 94411,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 1819.96,
+      "price": 1806.7,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.14,
+      "price": 2.12,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 597.97,
+      "price": 598.07,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 146.81,
+      "price": 145.23,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
