@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-09 02:02:28",
+  "checked_at": "2025-05-09 02:17:19",
   "usd_to_toman": 830600,
   "currency_rates": [
     {
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 102740,
+      "price": 102984,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2177.55,
+      "price": 2186.39,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -119,13 +119,13 @@
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 623.25,
+      "price": 624.19,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 161.02,
+      "price": 161.25,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.75,
+      "price": 0.76,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
