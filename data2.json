@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-10 18:27:03",
+  "checked_at": "2025-05-10 18:54:39",
   "usd_to_toman": 829450,
   "currency_rates": [
     {
@@ -64,27 +64,27 @@
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6674800,
-    "طلای 18 عیار 740": 6585800,
-    "طلای 24 عیار": 8899600,
-    "طلای دست دوم": 6585796
+    "طلای 18 عیار": 6715000,
+    "طلای 18 عیار 740": 6625400,
+    "طلای 24 عیار": 8953200,
+    "طلای دست دوم": 6625431
   },
   "gold_coins": [
     {
       "title": "سکه امامی",
-      "price": 74810000
+      "price": 75155000
     },
     {
       "title": "سکه بهار آزادی",
-      "price": 70505000
+      "price": 70495000
     },
     {
       "title": "نیم سکه",
-      "price": 45700000
+      "price": 45800000
     },
     {
       "title": "ربع سکه",
-      "price": 25600000
+      "price": 25800000
     },
     {
       "title": "سکه گرمی",
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 103552,
+      "price": 103489,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2437.31,
+      "price": 2433.2,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.41,
+      "price": 2.4,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 651.79,
+      "price": 650.93,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 171.42,
+      "price": 171.36,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.81,
+      "price": 0.8,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
