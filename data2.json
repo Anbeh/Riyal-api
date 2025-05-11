@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-11 21:16:00",
+  "checked_at": "2025-05-11 21:26:43",
   "usd_to_toman": 830650,
   "currency_rates": [
     {
@@ -72,11 +72,11 @@
   "gold_coins": [
     {
       "title": "سکه امامی",
-      "price": 75185000
+      "price": 75085000
     },
     {
       "title": "سکه بهار آزادی",
-      "price": 71710000
+      "price": 71680000
     },
     {
       "title": "نیم سکه",
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 103991,
+      "price": 104037,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2486.91,
+      "price": 2491.28,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.36,
+      "price": 2.37,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 652.43,
+      "price": 652.44,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 171.61,
+      "price": 171.68,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
