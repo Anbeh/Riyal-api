@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-13 12:20:43",
+  "checked_at": "2025-05-13 12:52:01",
   "usd_to_toman": 837500,
   "currency_rates": [
     {
@@ -64,27 +64,27 @@
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6541100,
-    "طلای 18 عیار 740": 6453900,
-    "طلای 24 عیار": 8721400,
-    "طلای دست دوم": 6453907
+    "طلای 18 عیار": 6585200,
+    "طلای 18 عیار 740": 6497400,
+    "طلای 24 عیار": 8780200,
+    "طلای دست دوم": 6497414
   },
   "gold_coins": [
     {
       "title": "سکه امامی",
-      "price": 73905000
+      "price": 74405000
     },
     {
       "title": "سکه بهار آزادی",
-      "price": 70085000
+      "price": 70585000
     },
     {
       "title": "نیم سکه",
-      "price": 45300000
+      "price": 45600000
     },
     {
       "title": "ربع سکه",
-      "price": 25300000
+      "price": 25900000
     },
     {
       "title": "سکه گرمی",
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 102772,
+      "price": 103067,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2458.28,
+      "price": 2471.96,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.5,
+      "price": 2.52,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 649.35,
+      "price": 651.18,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 172.45,
+      "price": 173.04,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -137,7 +137,7 @@
     {
       "name": "DOGE",
       "fullname": "دوج‌کوین",
-      "price": 0.22,
+      "price": 0.23,
       "icon": "https://assets.coingecko.com/coins/images/5/large/dogecoin.png"
     },
     {
