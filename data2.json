@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-17 20:01:06",
+  "checked_at": "2025-05-17 20:21:41",
   "usd_to_toman": 823250,
   "currency_rates": [
     {
@@ -64,10 +64,10 @@
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6312100,
-    "طلای 18 عیار 740": 6227900,
-    "طلای 24 عیار": 8416100,
-    "طلای دست دوم": 6227942
+    "طلای 18 عیار": 6331000,
+    "طلای 18 عیار 740": 6246600,
+    "طلای 24 عیار": 8441300,
+    "طلای دست دوم": 6246620
   },
   "gold_coins": [
     {
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 103028,
+      "price": 102893,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2472.66,
+      "price": 2460.64,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.33,
+      "price": 2.32,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 640.77,
+      "price": 637.03,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 166.89,
+      "price": 165.47,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -137,13 +137,13 @@
     {
       "name": "DOGE",
       "fullname": "دوج‌کوین",
-      "price": 0.22,
+      "price": 0.21,
       "icon": "https://assets.coingecko.com/coins/images/5/large/dogecoin.png"
     },
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.75,
+      "price": 0.74,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
