@@ -1,53 +1,53 @@
 {
-  "checked_at": "2025-05-19 15:29:46",
-  "usd_to_toman": 819950,
+  "checked_at": "2025-05-19 16:26:19",
+  "usd_to_toman": 819250,
   "currency_rates": [
     {
       "name": "دلار آمریکا",
       "code": "USD",
-      "price": 81995,
+      "price": 81925,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1236-flag-of-united-states.png"
     },
     {
       "name": "یورو",
       "code": "EUR",
-      "price": 91662,
+      "price": 91584,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1084-flag-of-european-union.png"
     },
     {
       "name": "پوند انگلیس",
       "code": "GBP",
-      "price": 108981,
+      "price": 108888,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1235-flag-of-great-britain.png"
     },
     {
       "name": "فرانک سوئیس",
       "code": "CHF",
-      "price": 98025,
+      "price": 97941,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1217-flag-of-switzerland.png"
     },
     {
       "name": "دلار کانادا",
       "code": "CAD",
-      "price": 58758,
+      "price": 58708,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/7164-flag-of-canada.png"
     },
     {
       "name": "لیر ترکیه",
       "code": "TRY",
-      "price": 2109,
+      "price": 2107,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1228-flag-of-turkey.png"
     },
     {
       "name": "روبل روسیه",
       "code": "RUB",
-      "price": 1013,
+      "price": 1012,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1187-flag-of-russia.png"
     },
     {
       "name": "یوآن چین",
       "code": "CNY",
-      "price": 11375,
+      "price": 11365,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1060-flag-of-china.png"
     },
     {
@@ -59,28 +59,28 @@
     {
       "name": "درهم امارات",
       "code": "AED",
-      "price": 22326,
+      "price": 22307,
       "icon": "https://www.emoji.co.uk/files/apple-emojis/flags-ios/1234-flag-of-the-united-arab-emirates.png"
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6289200,
-    "طلای 18 عیار 740": 6205400,
-    "طلای 24 عیار": 8385600,
-    "طلای دست دوم": 6205391
+    "طلای 18 عیار": 6294300,
+    "طلای 18 عیار 740": 6210400,
+    "طلای 24 عیار": 8392400,
+    "طلای دست دوم": 6210402
   },
   "gold_coins": [
     {
       "title": "سکه امامی",
-      "price": 71585000
+      "price": 71590000
     },
     {
       "title": "سکه بهار آزادی",
-      "price": 66510000
+      "price": 66500000
     },
     {
       "title": "نیم سکه",
-      "price": 42100000
+      "price": 42200000
     },
     {
       "title": "ربع سکه",
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 103003,
+      "price": 102424,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2416.68,
+      "price": 2398.41,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.32,
+      "price": 2.3,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 640.26,
+      "price": 636.52,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 162.27,
+      "price": 160.64,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.73,
+      "price": 0.72,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
