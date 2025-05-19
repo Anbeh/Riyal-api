@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-19 17:04:07",
+  "checked_at": "2025-05-19 17:21:49",
   "usd_to_toman": 819250,
   "currency_rates": [
     {
@@ -64,23 +64,23 @@
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6294300,
-    "طلای 18 عیار 740": 6210400,
-    "طلای 24 عیار": 8392400,
-    "طلای دست دوم": 6210402
+    "طلای 18 عیار": 6296200,
+    "طلای 18 عیار 740": 6212200,
+    "طلای 24 عیار": 8394800,
+    "طلای دست دوم": 6212224
   },
   "gold_coins": [
     {
       "title": "سکه امامی",
-      "price": 71590000
+      "price": 71405000
     },
     {
       "title": "سکه بهار آزادی",
-      "price": 66500000
+      "price": 66380000
     },
     {
       "title": "نیم سکه",
-      "price": 42200000
+      "price": 42000000
     },
     {
       "title": "ربع سکه",
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 102490,
+      "price": 103049,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2402.03,
+      "price": 2422.21,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.31,
+      "price": 2.32,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 637.87,
+      "price": 638.93,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 161.11,
+      "price": 162.56,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.72,
+      "price": 0.73,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
