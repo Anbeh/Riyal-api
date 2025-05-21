@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-21 11:26:48",
+  "checked_at": "2025-05-21 12:01:55",
   "usd_to_toman": 840650,
   "currency_rates": [
     {
@@ -64,19 +64,19 @@
     }
   ],
   "gold_prices": {
-    "طلای 18 عیار": 6592600,
-    "طلای 18 عیار 740": 6504700,
-    "طلای 24 عیار": 8790100,
-    "طلای دست دوم": 6504704
+    "طلای 18 عیار": 6841700,
+    "طلای 18 عیار 740": 6750500,
+    "طلای 24 عیار": 9122200,
+    "طلای دست دوم": 6750486
   },
   "gold_coins": [
     {
       "title": "سکه امامی",
-      "price": 74460000
+      "price": 75510000
     },
     {
       "title": "سکه بهار آزادی",
-      "price": 69115000
+      "price": 69890000
     },
     {
       "title": "نیم سکه",
@@ -84,7 +84,7 @@
     },
     {
       "title": "ربع سکه",
-      "price": 25000000
+      "price": 24600000
     },
     {
       "title": "سکه گرمی",
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 106781,
+      "price": 106526,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2555.19,
+      "price": 2553.12,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.35,
+      "price": 2.36,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 655.28,
+      "price": 653.27,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 168.8,
+      "price": 168.97,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -143,7 +143,7 @@
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.76,
+      "price": 0.75,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
