@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-23 10:01:28",
+  "checked_at": "2025-05-23 10:23:03",
   "usd_to_toman": 827100,
   "currency_rates": [
     {
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 110588,
+      "price": 110540,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2674.78,
+      "price": 2662.21,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -113,19 +113,19 @@
     {
       "name": "XRP",
       "fullname": "ریپل",
-      "price": 2.44,
+      "price": 2.43,
       "icon": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png"
     },
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 687.27,
+      "price": 685.8,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 180.85,
+      "price": 180.54,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
@@ -137,13 +137,13 @@
     {
       "name": "DOGE",
       "fullname": "دوج‌کوین",
-      "price": 0.25,
+      "price": 0.24,
       "icon": "https://assets.coingecko.com/coins/images/5/large/dogecoin.png"
     },
     {
       "name": "ADA",
       "fullname": "کاردانو",
-      "price": 0.82,
+      "price": 0.81,
       "icon": "https://assets.coingecko.com/coins/images/975/large/cardano.png"
     },
     {
