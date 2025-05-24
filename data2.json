@@ -1,5 +1,5 @@
 {
-  "checked_at": "2025-05-25 03:02:50",
+  "checked_at": "2025-05-25 03:16:02",
   "usd_to_toman": 829150,
   "currency_rates": [
     {
@@ -95,13 +95,13 @@
     {
       "name": "BTC",
       "fullname": "بیت‌کوین",
-      "price": 108008,
+      "price": 107978,
       "icon": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png"
     },
     {
       "name": "ETH",
       "fullname": "اتریوم",
-      "price": 2527.89,
+      "price": 2529.9,
       "icon": "https://assets.coingecko.com/coins/images/279/large/ethereum.png"
     },
     {
@@ -119,13 +119,13 @@
     {
       "name": "BNB",
       "fullname": "بایننس کوین",
-      "price": 668.65,
+      "price": 668.4,
       "icon": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png"
     },
     {
       "name": "SOL",
       "fullname": "سولانا",
-      "price": 176.09,
+      "price": 176.19,
       "icon": "https://assets.coingecko.com/coins/images/4128/large/solana.png"
     },
     {
